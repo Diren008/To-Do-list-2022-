@@ -14,17 +14,31 @@
     </head>
 
     <body>
-     <!-- New Task Section -->
+        <!-- New Task Section -->
 
         <div class="newTasks">
-        <label for="add task"> ADD NEW ITEM</label><input id="newItem" type="text"><button>Add</button>
+            <label for="add task"> ADD NEW ITEM</label><input id="newItem" type="text"><button>Add</button>
         </div>
 
-     <!-- To-do Section -->
+        <!-- To-do Section -->
         <div class="currentTasks">
             <h2>To-do Items</h2>
-            
+            <ul id="toDoTasks">
+                <li><input type="checkbox"><label for="to-do">Complete Assignment</label>
+                    <input type="text"><button class="edit">edit</button>
+                    <button class="remove">remove</button>
+                </li>
+                <!-- Editable task -->
+                <li class="editable"><input type="checkbox"> <label for="editable">Studying</label><input type="text"
+                        value="Studying"><button class="edit">edit</button>
+                    <button class="remove">remove</button>
+                </li>
+            </ul>
         </div>
+        
+        <!-- Completed section -->
+
+
 
 
 
